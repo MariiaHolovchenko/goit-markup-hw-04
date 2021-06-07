@@ -423,6 +423,8 @@ p.img-p {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .no-display {
   display: none;
@@ -434,14 +436,13 @@ p.img-p {
 .search-menu {
   display: flex;
   justify-content: center;
-  margin-top: 87px;
   margin-bottom: 50px;
 }
 .search-menu > li:not(:last-child) {
   margin-right: 8px;
 }
 .portfolio-section {
-  padding-top: 0px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .portfolio-projects-list {
@@ -449,6 +450,7 @@ p.img-p {
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
+  border-width: 1px;
   
 }
 .portfolio-content {
@@ -465,11 +467,9 @@ p.img-p {
 .portfolio-projects > li {
   box-sizing: border-box;
   max-width: 370px;
-  max-height: 404px;
   margin-top: 0px;
   margin-bottom: 0px;
   border-style: solid;
-  border-width: 1px;
   border-color: #eeeeee;
 }
 .portfolio-projects > li:not(:nth-last-child(-n + 3)) {
