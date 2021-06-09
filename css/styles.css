@@ -201,8 +201,12 @@ body {
       var(--overlay-hero-bg-color),
       var(--overlay-hero-bg-color)
     ),
-    url(./images/baner.jpg);
+    url("../images/baner.jpg");
   background-size: cover;
+}
+.hero-container {
+  background-image: linear-gradient(var(--overlay-hero-bg-color)),
+    radial-gradient(var(--overlay-hero-bg-color));
 }
 .hero-container {
   display: flex;
