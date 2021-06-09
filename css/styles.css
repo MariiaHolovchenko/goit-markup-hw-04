@@ -201,7 +201,7 @@ body {
       var(--overlay-hero-bg-color),
       var(--overlay-hero-bg-color)
     ),
-    url(../images/baner.jpg);
+    url(./images/baner.jpg);
   background-size: cover;
 }
 .hero-container {
@@ -266,6 +266,7 @@ body {
 }
 .whyus-menu-item-title {
   margin-bottom: 10px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
