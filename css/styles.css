@@ -197,16 +197,19 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(
+      to right,
       var(--overlay-hero-bg-color),
       var(--overlay-hero-bg-color)
     ),
-    url("../images/baner.jpg");
+    url("/images/bg-desktop.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
   background-size: cover;
 }
-.hero-container {
+/* .hero-container {
   background-image: linear-gradient(var(--overlay-hero-bg-color)),
     radial-gradient(var(--overlay-hero-bg-color));
-}
+} */
 .hero-container {
   display: flex;
   flex-direction: column;
@@ -504,7 +507,7 @@ body {
   margin-top: -30px;
 }
 .border-example-menu {
-  padding: 24px 20px;
+  padding: 20px 24px;
   border: 1px solid var(--border-example);
   box-sizing: border-box;
 }
