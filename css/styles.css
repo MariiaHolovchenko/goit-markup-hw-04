@@ -201,7 +201,7 @@ body {
       var(--overlay-hero-bg-color),
       var(--overlay-hero-bg-color)
     ),
-    url("./images/bg-desktop.jpg");
+    url("/images/bg-desktop.jpg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
